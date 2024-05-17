@@ -21,10 +21,6 @@ export default function TodoItem({ todo, todos, setTodos }) {
   }
 
   function handleRemove() {
-    // const nextRemove = todos.filter((t) => {
-    //   t.id !== todo.id;
-    // })
-    // setTodos(nextRemove);
     setTodos(todos.filter((t) => t.id !== todo.id)); 
   }
 
